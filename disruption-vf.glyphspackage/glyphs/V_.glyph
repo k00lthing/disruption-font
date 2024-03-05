@@ -1,0 +1,50 @@
+{
+glyphname = V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,82,l),
+(159,800,l),
+(99,790,l),
+(258,0,l),
+(323,0,l),
+(501,790,l),
+(441,800,l)
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = m01;
+layerId = "2AE8915B-CF85-46A0-A513-7C365E5B6658";
+name = "8. Aug 23, 16:57";
+shapes = (
+{
+closed = 1;
+nodes = (
+(272,0,l),
+(327,0,l),
+(514,800,l),
+(466,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(104,800,l),
+(272,0,l),
+(327,0,l),
+(152,800,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 86;
+}

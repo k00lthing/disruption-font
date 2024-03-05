@@ -1,0 +1,56 @@
+{
+glyphname = X;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,23,l),
+(171,0,l),
+(465,777,l),
+(413,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,777,l),
+(416,0,l),
+(469,23,l),
+(175,800,l)
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = m01;
+layerId = "B68D6EF1-0830-43C4-8AD7-684644A33FA9";
+name = "8. Aug 23, 19:29";
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,23,l),
+(171,0,l),
+(465,777,l),
+(409,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,777,l),
+(416,0,l),
+(473,23,l),
+(179,800,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 88;
+}
