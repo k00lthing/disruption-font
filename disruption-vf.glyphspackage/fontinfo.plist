@@ -1,6 +1,12 @@
 {
 .appVersion = "3200";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 customParameters = (
 {
 name = isFixedPitch;
@@ -12,9 +18,12 @@ value = "600";
 }
 );
 date = "2023-08-02 10:20:08 +0000";
-familyName = "koolthing Basic Monospace";
+familyName = "Disruption Monospace VF";
 fontMaster = (
 {
+axesValues = (
+600
+);
 customParameters = (
 {
 name = paramArea;
@@ -28,21 +37,15 @@ value = 10;
 id = m01;
 metricValues = (
 {
-over = 16;
+over = 20;
 pos = 800;
 },
 {
-over = 16;
+over = 20;
 pos = 600;
 },
 {
-over = -16;
-},
-{
-pos = 810;
-},
-{
-pos = -10;
+over = -20;
 }
 );
 name = Regular;
@@ -56,10 +59,58 @@ GSOffsetHorizontal = 26;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 20;
-de.kutilek.MasterGrid.type = units;
+de.kutilek.MasterGrid.type = div;
 de.kutilek.MasterGrid.value = (
-10,
-10
+20,
+20
+);
+};
+visible = 1;
+},
+{
+axesValues = (
+700
+);
+customParameters = (
+{
+name = paramArea;
+value = 400;
+},
+{
+name = paramDepth;
+value = 10;
+}
+);
+iconName = Condensed;
+id = m002;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = 16;
+pos = 600;
+},
+{
+over = -16;
+}
+);
+name = Disrupted;
+stemValues = (
+60,
+50
+);
+userData = {
+GSOffsetAutoStroke = 1;
+GSOffsetHorizontal = 26;
+GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetVertical = 20;
+de.kutilek.MasterGrid.type = div;
+de.kutilek.MasterGrid.value = (
+20,
+20
 );
 };
 visible = 1;
@@ -67,10 +118,22 @@ visible = 1;
 );
 instances = (
 {
+axesValues = (
+600
+);
 instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = Disrupted;
 }
 );
 metrics = (
@@ -82,12 +145,6 @@ type = "x-height";
 },
 {
 type = baseline;
-},
-{
-type = ascender;
-},
-{
-type = descender;
 }
 );
 settings = {
