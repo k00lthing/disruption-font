@@ -65,7 +65,6 @@ de.kutilek.MasterGrid.value = (
 20
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -113,7 +112,6 @@ de.kutilek.MasterGrid.value = (
 20
 );
 };
-visible = 1;
 }
 );
 instances = (
